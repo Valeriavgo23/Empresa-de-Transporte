@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal de Transporte</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">🚍 Terminal Jardín</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="empresas.html">Empresas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tiposDeVehiculos.html">Vehículos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="horarios.html">Horarios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inicioSesion.html">Compra</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="bg-dark text-white text-center p-5">
+        <img src="img/transporte.jpg" >
+        <h1 class="fw-bold">Bienvenido a la Terminal Ciudad Jardín</h1>
+        <p class="lead">Tu viaje empieza aquí ✈🚌🚖</p>
+    </div>
+
+    <div class="container my-5">
+
+        <!-- Información de la Terminal -->
+        <div class="card shadow-sm mb-5">
+            <div class="card-body">
+                <h2 class="card-title">Información de la Terminal</h2>
+                <ul class="list-unstyled mt-3">
+                    <li>📍 Dirección: Av. Libertad #500, Ciudad Jardín – Zona Centro</li>
+                    <li>📞 Teléfono: (601) 555-1212</li>
+                    <li>✉ Correo: contacto@terminaljardin.example</li>
+                    <li>🕐 Horario: Lunes a domingo, 05:00 a 23:00</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="d-flex justify-content-center gap-4 flex-wrap">
+            <div class="card shadow-lg rounded-3 border-0" style="width: 18rem;">
+                <img src="img/empresas.jpg" class="card-img-top rounded-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Empresas</h5>
+                    <a href="empresas.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+            </div>
+
+            <div class="card shadow-lg rounded-3 border-0" style="width: 18rem;">
+                <img src="img/tiposVehiculosjpg.jpg" class="card-img-top rounded-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Tipos de Vehículos</h5>
+                    <a href="tiposDeVehiculos.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+            </div>
+
+            <div class="card shadow-lg rounded-3 border-0" style="width: 18rem;">
+                <img src="img/horarios.png" class="card-img-top rounded-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Horarios y Disponibilidad</h5>
+                    <a href="horarios.html" class="btn btn-outline-primary">Ver más</a>
+                </div>
+            </div>
+
+            <div class="card shadow-lg rounded-3 border-0" style="width: 18rem;">
+                <img src="img/costos.png" class="card-img-top rounded-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cotiza y Compra</h5>
+                    <a href="inicioSesion.html" class="btn btn-outline-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+        <p>© 2025 Terminal de Transporte Ciudad Jardín | Todos los derechos reservados</p>
+        <p>📍 Av. Libertad #500 | 📞 (601) 555-1212</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

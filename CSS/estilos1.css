@@ -1,0 +1,26 @@
+.carousel-item img {
+    height: 400px;         /* todas tendrán la misma altura */
+    object-fit: cover;     /* recorta proporcionalmente, sin deformar */
+    width: 100%;
+}
+
+/* Fondo semitransparente detrás del texto */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 8px;
+    padding: 10px;
+}
+footer{
+
+  background-color: #111;  /* Fondo negro */
+  color: white;            /* Texto blanco */
+  text-align: center;      /* Centrado */
+    padding: 10px;
+  position: fixed;         /* Fijo */
+  bottom: 0;               /* Pegado abajo */
+    left: 0;
+  width: 100%;             /* Que ocupe todo el ancho */
+}
+
+
+
